@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>NESBox (on)</title>
+	<style type="text/css">
+		html {
+			overflow: auto;
+		}
+		
+		html,
+		body,
+		div,
+		iframe {
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+			border: none;
+		}
+		
+		iframe {
+			display: block;
+			width: 100%;
+			border: none;
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
+	</style>
+</head>
+
+<body>
+	<iframe id="iframe" src="https://nesbox.com/embed"
+			frameborder="0"
+			marginheight="0"
+			marginwidth="0"
+			width="100%"
+			height="100%"
+			scrolling="auto">
+</iframe>
+
+<script>
+  document.getElementById('iframe').contentWindow.document.getElementById('iframe').contentWindow.document.write("<button>hi</button>\n");
+  document.getElementById('iframe').contentWindow.document.write( '<!DOCTYPE html>\n' );
+document.getElementById('iframe').contentWindow.document.write( '<html>\n' );
+document.getElementById('iframe').contentWindow.document.write( '\n' );
+document.getElementById('iframe').contentWindow.document.write( '<head>\n' );
+document.getElementById('iframe').contentWindow.document.write( '	<title>NESBox (ON)</title>\n' );
+document.getElementById('iframe').contentWindow.document.write( '	<style type=\"text/css\">\n' );
+document.getElementById('iframe').contentWindow.document.write( '		html {\n' );
+document.getElementById('iframe').contentWindow.document.write( '			overflow: auto;\n' );
+document.getElementById('iframe').contentWindow.document.write( '		}\n' );
+document.getElementById('iframe').contentWindow.document.write( '		\n' );
+document.getElementById('iframe').contentWindow.document.write( '		html,\n' );
+document.getElementById('iframe').contentWindow.document.write( '		body,\n' );
+document.getElementById('iframe').contentWindow.document.write( '		div,\n' );
+document.getElementById('iframe').contentWindow.document.write( '		iframe {\n' );
+document.getElementById('iframe').contentWindow.document.write( '			margin: 0px;\n' );
+document.getElementById('iframe').contentWindow.document.write( '			padding: 0px;\n' );
+document.getElementById('iframe').contentWindow.document.write( '			height: 100%;\n' );
+document.getElementById('iframe').contentWindow.document.write( '			border: none;\n' );
+document.getElementById('iframe').contentWindow.document.write( '		}\n' );
+document.getElementById('iframe').contentWindow.document.write( '		\n' );
+document.getElementById('iframe').contentWindow.document.write( '		iframe {\n' );
+document.getElementById('iframe').contentWindow.document.write( '			display: block;\n' );
+document.getElementById('iframe').contentWindow.document.write( '			width: 100%;\n' );
+document.getElementById('iframe').contentWindow.document.write( '			border: none;\n' );
+document.getElementById('iframe').contentWindow.document.write( '			overflow-y: auto;\n' );
+document.getElementById('iframe').contentWindow.document.write( '			overflow-x: hidden;\n' );
+document.getElementById('iframe').contentWindow.document.write( '		}\n' );
+document.getElementById('iframe').contentWindow.document.write( '	</style>\n' );
+document.getElementById('iframe').contentWindow.document.write( '</head>\n' );
+document.getElementById('iframe').contentWindow.document.write( '\n' );
+document.getElementById('iframe').contentWindow.document.write( '<body>\n' );
+document.getElementById('iframe').contentWindow.document.write( '	<iframe src=\"https://nesbox.com/embed\"\n' );
+document.getElementById('iframe').contentWindow.document.write( '			frameborder=\"0\"\n' );
+document.getElementById('iframe').contentWindow.document.write( '			marginheight=\"0\"\n' );
+document.getElementById('iframe').contentWindow.document.write( '			marginwidth=\"0\"\n' );
+document.getElementById('iframe').contentWindow.document.write( '			width=\"100%\"\n' );
+document.getElementById('iframe').contentWindow.document.write( '			height=\"100%\"\n' );
+document.getElementById('iframe').contentWindow.document.write( '			scrolling=\"auto\">\n' );
+document.getElementById('iframe').contentWindow.document.write( '</iframe>\n' );
+document.getElementById('iframe').contentWindow.document.write( '\n' );
+document.getElementById('iframe').contentWindow.document.write( '</body>\n' );
+document.getElementById('iframe').contentWindow.document.write( '\n' );
+document.getElementById('iframe').contentWindow.document.write( '</html>\n' );
+</script>
+</body>
+
+</html>
