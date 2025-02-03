@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>NESBox (OFF)</title>
+</head>
+
+<body><center>
+<hr><h1>Click the button to start!</h1><hr>
+<hr><h1><button onclick="welikefornite()">Click me to start</button></h1><hr>
+  
+</center></body>
+<script>
+function welikefornite() {
+document.write( '<!DOCTYPE html>\n' );
+document.write( '<html>\n' );
+document.write( '\n' );
+document.write( '<head>\n' );
+document.write( '	<title>NESBox (ON)</title>\n' );
+document.write( '	<style type=\"text/css\">\n' );
+document.write( '		html {\n' );
+document.write( '			overflow: auto;\n' );
+document.write( '		}\n' );
+document.write( '		\n' );
+document.write( '		html,\n' );
+document.write( '		body,\n' );
+document.write( '		div,\n' );
+document.write( '		iframe {\n' );
+document.write( '			margin: 0px;\n' );
+document.write( '			padding: 0px;\n' );
+document.write( '			height: 100%;\n' );
+document.write( '			border: none;\n' );
+document.write( '		}\n' );
+document.write( '		\n' );
+document.write( '		iframe {\n' );
+document.write( '			display: block;\n' );
+document.write( '			width: 100%;\n' );
+document.write( '			border: none;\n' );
+document.write( '			overflow-y: auto;\n' );
+document.write( '			overflow-x: hidden;\n' );
+document.write( '		}\n' );
+document.write( '	</style>\n' );
+document.write( '</head>\n' );
+document.write( '\n' );
+document.write( '<body>\n' );
+document.write( '	<iframe src=\"https://nesbox.com/embed\"\n' );
+document.write( '			frameborder=\"0\"\n' );
+document.write( '			marginheight=\"0\"\n' );
+document.write( '			marginwidth=\"0\"\n' );
+document.write( '			width=\"100%\"\n' );
+document.write( '			height=\"100%\"\n' );
+document.write( '			scrolling=\"auto\">\n' );
+document.write( '</iframe>\n' );
+document.write( '\n' );
+document.write( '</body>\n' );
+document.write( '\n' );
+document.write( '</html>\n' );
+
+  }
+</script>
+</html>
